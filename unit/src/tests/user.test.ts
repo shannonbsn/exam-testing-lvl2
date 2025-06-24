@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { User } from './User';
-import { UserCategory } from './types';
+import { User } from '../User';
+import { UserCategory } from '../types';
 
 describe('User', () => {
     let user: User;
